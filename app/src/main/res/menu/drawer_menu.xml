@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/menu_camera"
+        android:title="@string/camera_log"
+        android:icon="@drawable/ic_camera" />
+
+    <item
+        android:id="@+id/menu_microphone"
+        android:title="@string/microphone_log"
+        android:icon="@drawable/ic_microphone" />
+
+    <item
+        android:id="@+id/menu_sms"
+        android:title="@string/message_log"
+        android:icon="@drawable/ic_sms" />
+</menu>

@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:src="@drawable/app_logo"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/smsServiceToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_scan_service"
+        app:trackTint="@color/color_state_list"
+        app:thumbTint="@color/color_state_list"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/cameraServiceToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_monitor_service"
+        android:layout_marginTop="16dp"
+        app:trackTint="@color/color_state_list"
+        app:thumbTint="@color/color_state_list"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/microphoneServiceToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_monitor_service"
+        android:layout_marginTop="16dp"
+        app:trackTint="@color/color_state_list"
+        app:thumbTint="@color/color_state_list"/>
+
+
+    <!-- Recent Logs Title -->
+    <TextView
+        android:id="@+id/recentLogsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_logs"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/logo_left_color"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <!-- RecyclerView for Recent Logs -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentLogsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:overScrollMode="always"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp">
+
+            <!-- Channel Name -->
+            <TextView
+                android:id="@+id/logChannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/channel"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/light_logo_right_color"
+                android:layout_alignParentStart="true"/>
+
+            <!-- Risk Title -->
+            <TextView
+                android:id="@+id/riskTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/risktitle"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/light_logo_right_color"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+        <!-- Date & Time -->
+        <TextView
+            android:id="@+id/logDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/datetime"
+            android:textSize="12sp"
+            android:textColor="@color/white" />
+
+        <!-- Log Content -->
+        <TextView
+            android:id="@+id/logTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_message_content"
+            android:textSize="14sp"
+            android:paddingTop="6dp"
+            android:textColor="@color/white" />
+
+        <!-- Risk Level Indicator -->
+        <View
+            android:id="@+id/logRiskIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/green" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

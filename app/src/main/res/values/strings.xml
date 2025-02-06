@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ZeroSpy</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="camera_log">Camera Log</string>
+    <string name="microphone_log">Microphone Log</string>
+    <string name="message_log">Message Log</string>
+    <string name="enable_private_mode">Enable Private Mode</string>
+    <string name="home">Home</string>
+    <string name="sms_scan_service">SMS Scan Service</string>
+    <string name="camera_monitor_service">Camera Monitor Service</string>
+    <string name="microphone_monitor_service">Microphone Monitor Service</string>
+    <string name="recent_logs">Recent Logs</string>
+    <string name="zerospy">ZeroSpy</string>
+    <string name="set_new_password">Set New Password</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="log_message_content">Log message content...</string>
+    <string name="datetime">DATETIME</string>
+    <string name="channel">Channel</string>
+    <string name="risktitle">risktitle</string>
+</resources>
