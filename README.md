@@ -1,6 +1,4 @@
-<div style="text-align:center">
-    <img src="screenshots/login.png" alt="Login Screenshot" width="60" height="60" />
-</div>
+<img src="./app/src/main/res/drawable/app_logo.png" alt="Login Screenshot" width="80" height="80" />
 
 # **🔒 ZeroSpy - Privacy & Security Guardian**
 
